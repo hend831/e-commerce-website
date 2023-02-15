@@ -1,0 +1,53 @@
+
+/* CSS styling */
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #991f89;
+    color: #ebe6e6;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin-top: 20px;
+  }
+  
+  .about-content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  /* Media queries for responsive design */
+  
+  @media only screen and (max-width: 767px) {
+    /* For mobile devices */
+    .about-container {
+      padding: 10px;
+    }
+  
+    .about-content {
+      max-width: 100%;
+    }
+  
+    .about-content p {
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* For tablets and smaller devices */
+    .about-content {
+      max-width: 600px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    /* For desktop devices */
+    .about-content {
+      max-width: 800px;
+    }
+  }
+  

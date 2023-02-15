@@ -1,0 +1,29 @@
+
+.banner {
+   
+    background-image: linear-gradient(to left, rgb(170, 25, 163), rgb(136, 136, 199),rgb(201, 54, 193), rgb(161, 31, 81));;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(212, 214, 201);
+    text-shadow: 1px 1px #333;
+    margin-bottom: 20px;
+}
+  
+  .banner h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  @media (max-width: 767px) {
+    .banner h1 {
+      text-align: center;
+    
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .banner h1 {
+      text-align: center;}
+    }
+  }
